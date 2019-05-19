@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="public/style/style.css"/>
+        <title>Gallery</title>
+    </head>
+
+    <body id="gallery">
+        <div class="header">
+            <img class="logoNavBar" src="public/images/logo .png" alt="logo">
+        </div>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+        </label>
+
+        <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="faq.html">F.A.Q.</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="gallery">
+
+            <h2 class="coffinsHeading">Coffins</h2>
+
+            <div class="row">
+                <div class="column">
+                    <img
+                        src="/public/images/canal-boat.jpg"
+                        onclick="openModal();currentSlide(1)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/ballet.jpg"
+                        onclick="openModal();currentSlide(2)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/dj-coffin.png"
+                        onclick="openModal();currentSlide(3)"
+                        class="hover-shadow">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img
+                        src="/public/images/jack-daniels.jpg"
+                        onclick="openModal();currentSlide(4)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/luggage.jpg"
+                        onclick="openModal();currentSlide(5)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/desperado.jpg"
+                        onclick="openModal();currentSlide(6)"
+                        class="hover-shadow">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img
+                        src="/public/images/guitar.jpg"
+                        onclick="openModal();currentSlide(7)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/rolls-royce.jpg"
+                        onclick="openModal();currentSlide(8)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/skate.jpg"
+                        onclick="openModal();currentSlide(9)"
+                        class="hover-shadow">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img
+                        src="/public/images/yacht.jpg"
+                        onclick="openModal();currentSlide(10)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/tango1.jpg"
+                        onclick="openModal();currentSlide(11)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/imageS/tardis.jpg"
+                        onclick="openModal();currentSlide(12)"
+                        class="hover-shadow">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="column">
+                    <img
+                        src="/public/images/keyboard.jpg"
+                        onclick="openModal();currentSlide(13)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/wine.jpg"
+                        onclick="openModal();currentSlide(14)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/imageS/viking.jpg"
+                        onclick="openModal();currentSlide(15)"
+                        class="hover-shadow">
+                </div>
+            </div>
+
+            <!-- URNS -->
+
+            <h2 class="coffinsHeading">Urns</h2>
+
+            <div class="row">
+                <div class="column">
+                    <img
+                        src="/public/images/enterprise.jpg"
+                        onclick="openModal();currentSlide(16)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/mercedes.jpg"
+                        onclick="openModal();currentSlide(17)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/vwgolf-urn.jpg"
+                        onclick="openModal();currentSlide(18)"
+                        class="hover-shadow">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img
+                        src="/public/images/mercedesvan-urn.jpg"
+                        onclick="openModal();currentSlide(19)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/yacht-urn.jpg"
+                        onclick="openModal();currentSlide(20)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/ford-focus.jpg"
+                        onclick="openModal();currentSlide(21)"
+                        class="hover-shadow">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img
+                        src="/public/images/owl-urn.jpg"
+                        onclick="openModal();currentSlide(22)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/triumph.jpg"
+                        onclick="openModal();currentSlide(23)"
+                        class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img
+                        src="/public/images/enterprise-2.jpg"
+                        onclick="openModal();currentSlide(24)"
+                        class="hover-shadow">
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modalBackground">
+
+            <div class="modalContent">
+
+                <div class="closeIconModal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                </div>
+
+                <div class="modal-slides">
+
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 24</div>
+                        <img src="/public/images/canal-boat.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 24</div>
+                        <img src="/public/images/ballet.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 24</div>
+                        <img src="/public/images/dj-coffin.png" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 24</div>
+                        <img src="/public/images/jack-daniels.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 24</div>
+                        <img src="/public/images/luggage.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 24</div>
+                        <img src="/public/images/desperado.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">7 / 24</div>
+                        <img src="/public/images/guitar.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">8 / 24</div>
+                        <img src="/public/images/rolls-royce.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">9 / 24</div>
+                        <img src="/public/images/skate.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">10 / 24</div>
+                        <img src="/public/images/yacht.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">11 / 24</div>
+                        <img src="/public/images/tango1.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">12 / 24</div>
+                        <img src="/public/images/tardis.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">13 / 24</div>
+                        <img src="/public/images/keyboard.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">14 / 24</div>
+                        <img src="/public/images/wine.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">15 / 24</div>
+                        <img src="/public/images/viking.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">16 / 24</div>
+                        <img src="/public/images/enterprise.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">17 / 24</div>
+                        <img src="/public/images/mercedes.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">18 / 24</div>
+                        <img src="/public/images/vwgolf-urn.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">19 / 24</div>
+                        <img src="/public/images/mercedesvan-urn.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">20 / 24</div>
+                        <img src="/public/images/yacht-urn.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">21 / 24</div>
+                        <img src="/public/images/ford-focus.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">22 / 24</div>
+                        <img src="/public/images/owl-urn.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">23 / 24</div>
+                        <img src="/public/images/triumph.jpg" class="modalImg">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">24 / 24</div>
+                        <img src="/public/images/enterprise-2.jpg" class="modalImg">
+                    </div>
+
+                    <div class="arrowsContainer">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer id="otherPages">
+            <hr class="hrCopyright">
+            <p class="copyright">Copyright 2018 © Going in Style Ltd</p>
+        </footer>
+
+        <script src="scripts/script.js"></script>
+    </body>
+
+</html>
